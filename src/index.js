@@ -30,7 +30,7 @@ function Layout() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/RezumeJob" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/dashboard" element={<Dashboard />} />
