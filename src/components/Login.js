@@ -13,12 +13,13 @@ function Login() {
         event.preventDefault();
         setErrorMsg('');
 
-        axios.post('https://rezumejob-server.onrender.com/login', {
+    axios.post(`${process.env.REACT_APP_API_URL}/login`, {
             email,
             password
         }, {
             withCredentials: true
         })
+
             .then(res => {
                 console.log("Response:", res.data);
                 if (res.data.success) {
