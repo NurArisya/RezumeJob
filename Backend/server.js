@@ -19,12 +19,13 @@ app.use(express.json());
 app.use(cookieParser());
 
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root1',
-    password: 'user123@',
-    database: 'myrezumejob',
-    port: '3306'
-})
+    host: process.env.DB_HOST,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASS,
+    database: process.env.DB_NAME,
+    port: process.env.DB_PORT || 3306
+});
+
 
 db.connect((err) => {
     if (err) {
