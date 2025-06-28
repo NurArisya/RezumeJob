@@ -99,8 +99,8 @@ app.post('/login', (req, res) => {
             // inside /login route
             res.cookie('token', token, {
                 httpOnly: true,
-                secure: false,     // use true only for HTTPS
-                sameSite: 'lax'
+                secure: true,     // use true only for HTTPS
+                sameSite: 'None'
             });
 
             return res.json({ success: true, message: "Login successful" });

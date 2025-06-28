@@ -41,7 +41,7 @@ function Dashboard() {
     const nextMyResumePage = () => navigate("/myresume");
 
     const handleLogout = () => {
-        axios.get('http://localhost:8081/logout', { withCredentials: true })
+    axios.get(`${process.env.REACT_APP_API_URL}/logout`, { withCredentials: true })
             .then(res => {
                 if (res.data.success) {
                     navigate('/login');
