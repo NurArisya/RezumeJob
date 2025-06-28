@@ -45,7 +45,7 @@ function Register() {
             return;
         }
 
-        axios.post('http://localhost:8081/register', values)
+        axios.post('https://rezumejob-server.onrender.com/register', values)
             .then(res => {
                 if (res.data.success) {
                     alert('Account created successfully. Please log in.');

@@ -12,7 +12,7 @@ function Dashboard() {
 
     useEffect(() => {
         console.log("Running auth check...");
-        axios.get('http://localhost:8081/', { withCredentials: true })
+        axios.get('https://rezumejob-server.onrender.com/', { withCredentials: true })
             .then(res => {
                 console.log("Auth response:", res.data);
                 if (res.data.success) {

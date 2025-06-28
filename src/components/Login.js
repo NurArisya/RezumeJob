@@ -13,7 +13,7 @@ function Login() {
         event.preventDefault();
         setErrorMsg('');
 
-        axios.post('http://localhost:8081/login', {
+        axios.post('https://rezumejob-server.onrender.com/login', {
             email,
             password
         }, {
