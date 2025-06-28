@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter";
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    overflow: auto; 
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: white;
+}
+
+nav .navheader {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px #00000033;
+}
+
+.navheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menuBar {
+    background-color: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #343434;
+}
+
+.logo span {
+    color: #728BE4;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.3s;
+    color: #343434;
+}
+
+a:hover,
+span:hover {
+    color: #D8CFED;
+}
+
+ul {
+    list-style: none;
+}
+
+.searchBar {
+    display: flex;
+    background-color: none;
+}
+
+.searchBar input[type="text"] {
+    border: 1px solid rgb(182, 171, 171);
+    border-radius: 6px;
+    padding: 10px 70px 5px 5px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 6px #0000001a;
+}
+
+input[type=submit] {
+    color: white;
+    border: 1pt solid purple;
+    background-color: purple;
+    box-shadow: 0 2px 6px #0000001a;
+    padding: 10px 22px;
+    text-decoration: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: plum;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.container-dashboard {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.left-panel {
+    background:#fff;
+    padding: 2px;
+    margin: 40px 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-panel {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px #0000001a;
+}
+
+.middle-panel {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px #0000001a;
+}
+
+.resume-img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.right-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.profile-card, .skills-card {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border: 1px solid #eee;
+    border-radius: 10px;
+}
+
+.create-btn {
+    padding: 10px 22px;
+    margin: 30px 80px;
+    background-color: #d7dffa;
+    border: 1px solid #999;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px #0000001a;
+}
+
+.edit-profile-btn, .view-profile-btn {
+    padding: 1rem;
+    margin: 12px;
+    background-color: #d7dffa;
+    border: 1px solid #999;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px #0000001a;
+    cursor: pointer;
+}
+
+.edit-profile-btn:hover, .view-profile-btn:hover, .create-btn:hover {
+    background-color: #D8CFED;
+}
+
+
+

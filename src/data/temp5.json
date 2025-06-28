@@ -1,0 +1,84 @@
+{
+    "style": {
+        "font": "Helvetica",
+        "color": "#000000",
+        "layout": "single-column"
+    },
+    "sections": [
+        {
+            "type": "header",
+            "name": "John Doe",
+            "address": "123 Example St, City",
+            "phone": "011-22931044",
+            "email": "abc@gmail.com"
+        },
+        {
+            "type": "summary",
+            "text": "Passionate and dedicated..."
+        },
+        {
+            "type": "skills",
+            "list": [
+                "Teamwork",
+                "ReactJS",
+                "SQL",
+                "Microsoft Office"
+            ]
+        },
+        {
+            "type": "projects",
+            "list": [
+                {
+                    "title": "AI Chatbot",
+                    "tools": "Python, TensorFlow",
+                    "description": "Built a chatbot capable of natural conversation for student Q&A."
+                },
+                {
+                    "type": "projects",
+                    "title": "E-commerce Site",
+                    "tools": "HTML, CSS, JavaScript",
+                    "description": "Developed and deployed an online shopping prototype as part of coursework."
+                }
+            ]
+        },
+        {
+            "type": "experience",
+            "list": [
+                {
+                    "company": "Retail Co.",
+                    "role": "Sales Assistant",
+                    "startDate": "July 2023",
+                    "endDate": "Present",
+                    "description": "Assisted customers and consistently exceeded monthly sales targets."
+                },
+                {
+                    "company": "Cafe Delight",
+                    "role": "Barista",
+                    "startDate": "May 2022",
+                    "endDate": "June 2023",
+                    "description": "Delivered excellent customer service and handled daily operations."
+                }
+            ]
+        },
+        {
+            "type": "certifications",
+            "list": [
+                "Google Data Analytics Certificate (2022)",
+                "AWS Certified Cloud Practitioner (2023)"
+            ]
+        },
+        {
+            "type": "language",
+            "list": [
+                {
+                    "language": "English",
+                    "proficiency": "Fluent"
+                },
+                {
+                    "language": "Malay",
+                    "proficiency": "Native"
+                }
+            ]
+        }
+    ]
+}

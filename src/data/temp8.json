@@ -1,0 +1,52 @@
+{
+    "style": {
+        "font": "Arial",
+        "color": "#000000",
+        "layout": "single-column"
+    },
+    "sections": [
+        {
+            "type": "header",
+            "name": "Jordan Minimal",
+            "address": "123 Simple St, CleanTown",
+            "phone": "017-6677889",
+            "email": "jordan.minimal@example.com"
+        },
+        {
+            "type": "summary",
+            "text": "Motivated professional with experience in administration and customer relations. Seeking a streamlined role in an organized setting."
+        },
+        {
+            "type": "experience",
+            "list": [
+                {
+                    "company": "Admin Services Inc.",
+                    "role": "Admin Assistant",
+                    "startDate": "Jan 2022",
+                    "endDate": "Present",
+                    "description": "Handled scheduling, reports, and office coordination."
+                }
+            ]
+        },
+        {
+            "type": "skills",
+            "list": [
+                "Data Entry",
+                "MS Office",
+                "Scheduling",
+                "Time Management"
+            ]
+        },
+        {
+            "type": "education",
+            "list": [
+                {
+                    "school": "Clean University",
+                    "degree": "Diploma in Office Management",
+                    "startDate": "2019",
+                    "endDate": "2021"
+                }
+            ]
+        }
+    ]
+}

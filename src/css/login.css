@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    font-family: "Inter";
+}
+
+.login-page {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f2d1f2, #c9e4f6);
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px #0000001a;
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: black;
+}
+
+label {
+    font-size: 14px;
+    color: black;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.forgot_pw {
+    text-align: right;
+}
+
+.forgot_pw a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #707076;
+}
+
+.forgot_pw a:hover {
+    text-decoration: underline;
+}
+
+input[type="submit"] {
+    color: white;
+    border: 1pt solid black;
+    background-color: #333333;
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    border-radius: 30px;
+    transition: background 0.3s ease;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: purple ;
+}
+
+.toRegister{
+    text-align: center;
+}

@@ -1,0 +1,72 @@
+{
+    "style": {
+        "font": "Helvetica",
+        "color": "#000000",
+        "layout": "single-column"
+    },
+    "sections": [
+        {
+            "type": "header",
+            "name": "John Doe",
+            "address": "123 Example St, City",
+            "phone": "011-22931044",
+            "email": "abc@gmail.com"
+        },
+        {
+            "type": "summary",
+            "text": "Energetic graduate seeking entry-level opportunities to apply customer service and team skills in a dynamic environment."
+        },
+        {
+            "type": "experience",
+            "list": [
+                {
+                    "company": "Retail Co.",
+                    "role": "Sales Assistant",
+                    "startDate": "July 2023",
+                    "endDate": "Present",
+                    "description": "Assisted customers and consistently exceeded monthly sales targets."
+                },
+                {
+                    "company": "Cafe Delight",
+                    "role": "Barista",
+                    "startDate": "May 2022",
+                    "endDate": "June 2023",
+                    "description": "Delivered excellent customer service and handled daily operations."
+                }
+            ]
+        },
+        {
+            "type": "skills",
+            "list": [
+                "Communication",
+                "Problem-solving",
+                "Teamwork",
+                "Customer Service"
+            ]
+        },
+        {
+            "type": "education",
+            "list": [
+                {
+                    "school": "XYZ University",
+                    "degree": "Diploma in Business Management",
+                    "startDate": "2020",
+                    "endDate": "2022"
+                }
+            ]
+        },
+        {
+            "type": "language",
+            "list": [
+                {
+                    "language": "English",
+                    "proficiency": "Fluent"
+                },
+                {
+                    "language": "Malay",
+                    "proficiency": "Native"
+                }
+            ]
+        }
+    ]
+}

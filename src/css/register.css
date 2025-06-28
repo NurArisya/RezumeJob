@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: "Inter", sans-serif;
+}
+
+.register {
+    display: flex;
+    height: 100vh;
+}
+
+.right-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.left-panel {
+    padding: 50px;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #503450ad;
+    background: blue;
+
+}
+
+.registerForm h2 {
+    font-size: 2rem;
+}
+
+.registerForm p {
+    font-size: 0.8rem;
+}
+
+.form-container {
+    border: 1px solid #e7e3e3;
+    border-radius: 20px;
+    padding: 70px;
+    box-shadow: 0 4px 20px #0000001a;
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-container h1 {
+    text-align: center;
+}
+
+.label-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.labelField {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 0.9rem;
+    font-size: 12px;
+    padding: 10px;
+}
+
+
+.passCriteria,
+.terms-text {
+    font-size: 0.7rem;
+    color: #827f7f;
+}
+
+
+body {
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+input[type=submit] {
+    color: white;
+    border: 1pt solid black;
+    background-color: #333333;
+    padding: 16px 32px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+input[type=submit]:hover {
+    background-color: purple;
+
+}
+
+#passwordError {
+    font-size: 12px;
+    font-family: "Poppins";
+    color: red;
+}

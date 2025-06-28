@@ -1,0 +1,93 @@
+{
+    "style": {
+        "font": "Helvetica",
+        "color": "#000000",
+        "layout": "single-column"
+    },
+    "sections": [
+        {
+            "type": "header",
+            "name": "John Doe",
+            "address": "Address",
+            "phone": "011-22931044",
+            "email": "abc@gmail.com"
+        },
+        {
+            "type": "summary",
+            "text": "Motivated student with hands-on experience in academic research and group projects."
+        },
+        {
+            "type": "projects",
+            "list": [
+                {
+                    "title": "AI Chatbot",
+                    "tools": "Python, TensorFlow",
+                    "description": "Built a chatbot capable of natural conversation for student Q&A."
+                },
+                {
+                    "type": "projects",
+                    "title": "E-commerce Site",
+                    "tools": "HTML, CSS, JavaScript",
+                    "description": "Developed and deployed an online shopping prototype as part of coursework."
+                }
+            ]
+        },
+        {
+            "type": "education",
+            "list": [
+                {
+                    "school": "University of XYZ",
+                    "degree": "Bachelor of Software Engineering",
+                    "startDate": "2020",
+                    "endDate": "2023"
+                },
+                {
+                    "school": "University of XYZ",
+                    "degree": "Foundation of Information Technology",
+                    "startDate": "2019",
+                    "endDate": "2020"
+                }
+            ]
+        },
+        {
+            "type": "skills",
+            "list": [
+                "Python",
+                "HTML/CSS",
+                "Team Collaboration"
+            ]
+        },
+        {
+            "type": "language",
+            "list": [
+                {
+                    "language": "English",
+                    "proficiency": "Fluent"
+                },
+                {
+                    "language": "Malay",
+                    "proficiency": "Native"
+                }
+            ]
+        },
+        {
+            "type": "references",
+            "list": [
+                {
+                    "name": "Jane Smith",
+                    "position": "Senior Manager",
+                    "company": "Tech Corp",
+                    "email": "jane.smith@techcorp.com",
+                    "phone": "012-3456789"
+                },
+                {
+                    "name": "Ahmad Ali",
+                    "position": "Project Supervisor",
+                    "company": "Global Solutions",
+                    "email": "ahmad.ali@globalsolutions.com",
+                    "phone": "019-1122334"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter";
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+.template-picker-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 40px;
+}
+
+/* Left: Template Section */
+.template-preview {
+    flex: 2.5;
+    border: 1px solid #ccc;
+    padding: 20px;
+    min-height: 300px;
+    border-radius: 8px;
+}
+
+/* Right: Color Picker Panel */
+.style-panel {
+    flex: 0.5;
+    border: 1px solid black;
+    padding: 30px 20px;
+    border-radius: 8px;
+}
+
+.color-palette {
+    display: flex;
+    gap: 12px;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+}
+
+.color-swatch {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: transform 0.2s ease, border 0.2s ease;
+}
+
+.color-swatch:hover {
+    transform: scale(1.1);
+}
+
+.color-swatch.selected {
+    border: 3px solid black;
+}
+
+.alignment-picker {
+    margin-top: 20px;
+}
+
+.alignment-picker button {
+    margin-right: 10px;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.alignment-picker button.active {
+    background-color: #3498db;
+    color: white;
+    border-color: #3498db;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.chooseBtn {
+    background-color: burlywood;
+    color: #fff;
+    padding: 12px 50px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.chooseBtn:hover {
+    background-color: #ff69b4;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+    /* slight lift on hover */
+}

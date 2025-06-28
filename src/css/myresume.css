@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter";
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    overflow: auto; 
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: white;
+}
+
+/* Container padding */
+.resume-container {
+    padding: 40px;
+    padding-left: 80px;  /* Equivalent to md:px-20 */
+    padding-right: 80px;
+}
+
+/* Adjust padding on large screens */
+@media (min-width: 1024px) {
+    .resume-container {
+        padding-left: 128px; /* lg:px-32 */
+        padding-right: 128px;
+    }
+}
+
+/* Title */
+.resume-title {
+    font-weight: bold;
+    font-size: 1.875rem; /* text-3xl = 30px */
+    margin-bottom: 0.5rem;
+}
+
+/* Grid layout */
+.resume-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* grid-cols-2 */
+    gap: 1rem;
+    margin-top: 2.5rem; /* mt-10 */
+}
+
+/* Medium screens: 3 columns */
+@media (min-width: 768px) {
+    .resume-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Large screens: 5 columns */
+@media (min-width: 1024px) {
+    .resume-grid {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "style": {
+        "font": "Helvetica",
+        "color": "#000000",
+        "layout": "single-column"
+    },
+    "sections": [
+        {
+            "type": "header",
+            "name": "John Doe",
+            "address": "123 Example St, City",
+            "phone": "011-22931044",
+            "email": "abc@gmail.com"
+        },
+        {
+            "type": "summary",
+            "text": "Passionate and dedicated..."
+        },
+        {
+            "type": "skills",
+            "list": [
+                "Teamwork",
+                "ReactJS",
+                "SQL",
+                "Microsoft Office"
+            ]
+        },
+        {
+            "type": "experience",
+            "list": [
+                {
+                    "company": "Company A",
+                    "role": "Customer Service Executive",
+                    "startDate": "May 2025",
+                    "endDate": "Present",
+                    "description": "Handled customer queries and improved response time by 20%."
+                },
+                {
+                    "company": "Company B",
+                    "role": "Sales Assistant",
+                    "startDate": "June 2023",
+                    "endDate": "September 2024",
+                    "description": "Assisted customers and consistently exceeded sales targets."
+                }
+            ]
+        },
+        {
+            "type": "certifications",
+            "list": [
+                "Google Data Analytics Certificate (2022)",
+                "AWS Certified Cloud Practitioner (2023)",
+                "Dean’s List Award (2021, 2022)"
+            ]
+        }
+    ]
+}

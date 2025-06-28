@@ -1,0 +1,88 @@
+if no exprience && student && unemployed -> temp1 : education/volunteer activity
+if < 3 years and others show working expreience first
+if
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Resume Template 1</title>
+    <style>
+        body {
+            padding: 2rem;
+            font-family: sans-serif;
+        }
+
+        .resume {
+            max-width: 600px;
+            margin: auto;
+            padding: 40px 80px;
+            border: 1px solid black;
+        }
+
+        .resume h1,
+        h2 {
+            margin-bottom: 0.2em;
+        }
+
+        .section {
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="resume" id="resume-container"></div>
+
+    <script>
+        // Fetch JSON and render resume
+        fetch('try.json')
+            .then(response => response.json())
+            .then(data => renderResume(data));
+
+        function renderResume(template) {
+            const container = document.getElementById("resume-container");
+
+            // Apply styles
+            document.body.style.fontFamily = template.style.font;
+            container.style.color = template.style.color;
+
+            template.sections.forEach(section => {
+                const el = document.createElement("div");
+                el.className = "section";
+
+                switch (section.type) {
+                    case "header":
+                        el.innerHTML = `
+                            <h1>${section.name}</h1>
+                            <p>${section.address} | ${section.phone} | ${section.email}</p>
+                        `;
+                        break;
+                    case "summary":
+                        el.innerHTML = `
+                            <p><strong>Summary</strong></p>
+                            <p>  ${section.text}</p>
+                        `;
+                        break;
+                    case "education":
+                        el.innerHTML = `<h3>Education</h3><p>${section.degree} - ${section.school} (${section.year})</p>`;
+                        break;
+                    case "experience":
+                        el.innerHTML = `<h3>Experience</h3><p><strong>${section.role}</strong> at ${section.company} (${section.duration})</p><p>${section.description}</p>`;
+                        break;
+                    case "skills":
+                        el.innerHTML = `<h3>Skills</h3><ul>${section.list.map(skill => `<li>${skill}</li>`).join('')}</ul>`;
+                        break;
+                }
+
+                container.appendChild(el);
+            });
+        }
+    </script>
+
+</body>
+
+</html>
